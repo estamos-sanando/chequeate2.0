@@ -1,0 +1,64 @@
+﻿.profile-hero::before{content:'ðŸ©º';position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:100px;opacity:0.08}
+        <div style="font-size:60px;margin-bottom:12px">ðŸš‘</div>
+    <div style="font-size:32px">ðŸ§ </div>
+<span class="glass" style="padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600" id="profile-hero-blood">ðŸ©¸ -</span>
+<span class="glass" style="padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600" id="profile-hero-obra">ðŸ¥ -</span>
+<div style="font-size:52px;margin-bottom:12px">ðŸ“‹</div>
+<div class="emoji-btn" data-val="ðŸ˜¢" onclick="selectEmoji('animo','ðŸ˜¢')">ðŸ˜¢</div>
+<div class="emoji-btn" data-val="ðŸ˜•" onclick="selectEmoji('animo','ðŸ˜•')">ðŸ˜•</div>
+<div class="emoji-btn" data-val="ðŸ˜" onclick="selectEmoji('animo','ðŸ˜')">ðŸ˜</div>
+<div class="emoji-btn" data-val="ðŸ˜Š" onclick="selectEmoji('animo','ðŸ˜Š')">ðŸ˜Š</div>
+<div class="emoji-btn" data-val="ðŸ˜„" onclick="selectEmoji('animo','ðŸ˜„')">ðŸ˜„</div>
+    if (avgEstres >= 7) ins.push({ type: 'warning', icon: 'ðŸ§ ', text: 'Registraste estrés elevado varios días seguidos. Considerá hablar con un profesional.' });
+    if (avgSueno < 4) ins.push({ type: 'warning', icon: 'ðŸ˜´', text: 'Tu calidad de sueño bajó esta semana. El descanso es fundamental para tu salud.' });
+    if (avgEstres < 4 && avgSueno >= 7) ins.push({ type: 'positive', icon: 'ðŸŒŸ', text: '¡Tu bienestar emocional está muy bien! Seguí con tus hábitos saludables.' });
+    ins.push({ type: '', icon: 'ðŸ“…', text: 'Tenés especialidades sin turno asignado. ¿Querés agendarlas?' });
+    ins.push({ type: '', icon: 'ðŸ“', text: 'Aún no registraste estudios. Podés subir tus análisis y consultas en Historial Médico.' });
+  { id: uid(), nombre: 'Clínica Médica', desc: 'Control general de salud y prevención', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸ©º', color: '#2563eb', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Oftalmología', desc: 'Examen visual y salud ocular', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸ‘ï¸', color: '#0ea5e9', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Odontología', desc: 'Limpieza y revisión dental', frecuencia: 'Semestral', estado: 'pendiente', icon: 'ðŸ¦·', color: '#10b981', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Dermatología', desc: 'Control de piel y manchas', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸ”¬', color: '#f59e0b', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Análisis de sangre', desc: 'Hemograma y perfil lipídico', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸ§ª', color: '#8b5cf6', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Ginecología', desc: 'Salud reproductiva femenina', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸŒ¸', color: '#ec4899', ultimo: '', medico: '' },
+  { id: uid(), nombre: 'Nutrición', desc: 'Evaluación nutricional y hábitos', frecuencia: 'Anual', estado: 'pendiente', icon: 'ðŸ¥—', color: '#059669', ultimo: '', medico: '' },
+      <div class="spec-icon" style="background:${e.color}22;font-size:26px">${e.icon || 'ðŸ©º'}</div>
+  const map = { 'cardio': 'â¤ï¸', 'ofta': 'ðŸ‘ï¸', 'dent': 'ðŸ¦·', 'derm': 'ðŸ”¬', 'sangre': 'ðŸ§ª', 'gine': 'ðŸŒ¸', 'nutri': 'ðŸ¥—', 'endoc': 'âš—ï¸', 'uro': 'ðŸ¥', 'neuro': 'ðŸ§ ', 'trauma': 'ðŸ¦´', 'psico': 'ðŸ§˜' };
+  return 'ðŸ©º';
+  const animo = document.querySelector('.emoji-btn.selected')?.dataset.val || 'ðŸ˜';
+  if (avg('sueno') < 5) insights.push({ type: 'warning', text: 'ðŸ˜´ Tu calidad de sueño disminuyó esta semana. Se recomiendan 7-9 horas diarias.' });
+  if (avg('ansiedad') >= 7) insights.push({ type: 'warning', text: 'ðŸ§˜ Detectamos ansiedad elevada. Considerá técnicas de relajación o hablar con un profesional.' });
+  if (insights.length === 0) insights.push({ type: 'positive', text: 'ðŸŒŸ Tu bienestar emocional esta semana muestra un balance saludable. ¡Seguí así!' });
+  'ðŸš¶ Realizá al menos 30 minutos de actividad física moderada al día.',
+  'ðŸ’§ Bebé 8 vasos de agua diariamente. La hidratación mejora el rendimiento cognitivo.',
+  'ðŸ¥¦ Incluí verduras de diferentes colores en cada comida.',
+  'ðŸ˜´ El sueño reparador es fundamental: intentá dormir siempre a la misma hora.',
+  'ðŸ§˜ 5 minutos de meditación diaria reducen el cortisol y mejoran el foco.',
+  'ðŸ©º Un chequeo médico anual puede detectar condiciones antes de que avancen.',
+  'ðŸŒ³ Pasar tiempo en la naturaleza reduce el estrés y mejora el estado de ánimo.',
+  'ðŸ“µ Desconectarte de pantallas 1 hora antes de dormir mejora la calidad del sueño.'
+  document.getElementById('profile-hero-blood').textContent = 'ðŸ©¸ ' + (document.getElementById('pf-sangre').value || p.sangre || '-');
+  document.getElementById('profile-hero-obra').textContent = 'ðŸ¥ ' + (document.getElementById('pf-obra').value || p.obra || '-');
+    new Notification('ðŸ¥ Chequeate â€” Recordatorio', {
+      icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">ðŸ¥</text></svg>'
+    { icon: 'ðŸ†”', title: 'Tu ID Médico', text: 'En la sección Perfil tenés un QR único. Es tu identidad médica para que cualquier doctor acceda a tus datos críticos al instante.' },
+    { icon: 'ðŸ©º', title: 'Test Preventivo', text: 'Realizá el test para obtener recomendaciones personalizadas basadas en tus hábitos y antecedentes familiares de cáncer.' },
+    { icon: 'ðŸ“Š', title: 'Signos Vitales', text: 'Llevá un registro de tu presión, glucosa y peso. Calcularemos tu IMC y te mostraremos gráficos de evolución.' },
+    { icon: 'ðŸš¨', title: 'Botón SOS', text: 'En emergencias, tocá el botón rojo flotante. Mostrará tus alergias y contacto de emergencia de forma inmediata.' }
+  set('qrv-blood', 'ðŸ©¸ ' + (p.sangre || 'Desconocido'));
+      espEl.innerHTML = state.especialidades.map(e => '<div class="qr-specialty-row"><div style="font-size:24px">' + (e.icon||'ðŸ©º') + '</div><div style="flex:1"><div style="font-weight:700;font-size:14px">' + e.nombre + '</div><div style="font-size:12px;color:var(--text3)">' + e.frecuencia + ' Â· ' + (e.medico||'Médico no asignado') + (e.ultimo?' Â· Ãšltimo: '+formatDate(e.ultimo):'') + '</div></div><span class="badge ' + (e.estado==='realizada'?'badge-green':e.estado==='urgente'?'badge-red':'badge-yellow') + '">' + e.estado + '</span></div>').join('');
+      <div style="font-size:52px;margin-bottom:16px">${s >= 70 ? 'ðŸŒŸ' : s >= 40 ? 'ðŸ“ˆ' : 'ðŸ’ª'}</div>
+    recs.push({ icon:'ðŸƒ', title:'Incorporá actividad física', text:'Al menos 150 min/semana de actividad moderada reducen significativamente el riesgo de cáncer de colon y mama.', specialty:'Clínica Médica' });
+    recs.push({ icon:'ðŸš­', title:'Cesación tabáquica urgente', text:'El tabaco está vinculado a 15 tipos de cáncer. Consultá por programas de apoyo para dejarlo.', specialty:'Neumonología' });
+    recs.push({ icon:'ðŸ©º', title:'Chequeo general pendiente', text:'Es vital realizar un control anual para detectar factores de riesgo silenciosos.', specialty:'Clínica Médica' });
+    recs.push({ icon:'ðŸ§¬', title:'Vigilancia de Colon', text:'Con antecedentes familiares, la colonoscopía se recomienda a partir de los 40 años o 10 años antes de la edad de diagnóstico del familiar.', specialty:'Gastroenterología' });
+    recs.push({ icon:'ðŸ”¬', title:'Cribado de Colon por edad', text:'A partir de los 45-50 años se recomienda realizar un test de sangre oculta en materia fecal o colonoscopía de rutina.', specialty:'Gastroenterología' });
+    recs.push({ icon:'ðŸŒ¸', title:'Prevención Mamaria Reforzada', text:'Tener antecedentes directos requiere controles mamográficos más frecuentes y quizás asesoramiento genético.', specialty:'Ginecología / Mastología' });
+    recs.push({ icon:'ðŸŒ¸', title:'Mamografía Anual', text:'Al haber cumplido 40 años, se recomienda iniciar el cribado mamográfico anual de rutina.', specialty:'Ginecología' });
+    recs.push({ icon:'ðŸ©º', title:'Salud Prostática', text:'Por rango de edad, es recomendable realizar el test de antígeno prostático (PSA) y consulta urológica.', specialty:'Urología' });
+    const msg = `ðŸ¥ *PERFIL MÃ‰DICO - CHEQUEATE*
+ðŸ“Œ *ID:* ${id}
+ðŸ‘¤ *Nombre:* ${p.nombre || state.user.name}
+ðŸ©¸ *Grupo Sanguíneo:* ${p.sangre || 'No especificado'}
+ðŸ’Š *Medicación Actual:* ${p.medicacion || 'Ninguna'}
+ðŸ  *Obra Social:* ${p.obra || 'No especificada'}
+ðŸš‘ *Emergencia:* ${p.emergencia || 'No especificado'}
